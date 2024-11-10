@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">    
+      <header>
+        <h1>Some CSS Styling Tips</h1>
+        <ul>
+          <li><a href="#Changes_to_Font" class="nav-link">Changes to Font</a></li>
+          <li><a href="#Background_Color" class="nav-link">Background Color</a></li>
+          <li><a href="#Margins" class="nav-link">Margins</a></li>
+          <li><a href="#Using_Class_Selectors_in_CSS" class="nav-link">Using Class Selectors in CSS</a></li>
+          <li><a href="#Layering_Elements" class="nav-link">Layering Elements</a></li>
+      </header>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Changes_to_Font">
+        <header>
+          <h2>Changes to Font</h2>
+        </header>
+          <p>To change font style, use the following:</p>
+            <code>
+              font-family:Sans-serif
+            </code>
+          <p> Here, Sans-serif is just one example font style you can change to.</p>
+            <ul class="font-list">Others include:
+              <li class="list">Helvetica</li>
+              <li class="list">Arial</li>
+              <li class="list">Verdana</li>
+              <li class="list">Tahoma</li>
+              <li class="list">Gill Sans</li>
+            </ul>
+      </section>
+      <section class="main-section" id="Background_Color">
+        <header>
+          <h2>Background Color</h2>
+        </header>
+          <p>To change the background color of the element use the following:</p>
+            <code>
+              background-color:#FFFFFF
+            </code>
+          <p>You can use hex codes, rgb styling, or simple color words to choose the color for your background.</p>
+      </section>
+      <section class="main-section" id="Margins">
+        <header>
+          <h2>Margins</h2>
+        </header>
+          <p>To change the side of the margins of your element, use one of the following:</p>
+            <code>
+              Margin: 0 0 0 0;
+              Margin: 0 0 0;
+              Margin: 0 0;
+              Margin: 0
+            </code>
+              <p>When using four seperate values, you are choosing the margin size for top, right, bottom, left in that order.</p>
+              <p>With three values, you are choosing top, left and right together, and finally bottom.</p>
+              <p>With two values, you are choosing top and bottom together, followed by left and right together.</p>
+              <p>With one value, you are applying it to all margins of the element.</p>
+      </section>
+      <section class="main-section" id="Using_Class_Selectors_in_CSS">
+        <header>
+          <h2>Using Class Selectors in CSS</h2>
+        </header>
+          <p>When you want to change all elements of a certain class type, use the following:</p>
+            <code>
+              .Class { }
+            </code>
+      </section>
+      <section class="main-section" id="Layering_Elements">
+        <header>
+          <h2>Layering Elements</h2>
+        </header>
+          <p>To manipulate which elements are on top or under other elements, use the following:</p>
+            <code>
+              z-index:1
+            </code>
+          <p>By giving an element a z-index value higher than another element, you will ensure that the higher valued one will be on top of the other element.</p>
+      </section>
+    </main>
+  </body>
+</html>
